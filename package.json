@@ -1,0 +1,15 @@
+{
+  "name": "tof-addon",
+  "version": "1.0.0",
+  "description": "Native add on to interface with the ToF camera",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "Rob Thuleen",
+  "license": "ISC",
+  "dependencies": {
+    "napi-thread-safe-callback": "0.0.6",
+    "node-addon-api": "^3.0.0"
+  }
+}
